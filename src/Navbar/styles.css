@@ -1,4 +1,16 @@
+.img {
+    width: 70px;
+    height: 30px;
+}
 
+.div-img {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .main-navbar {
     position: absolute;
@@ -7,7 +19,27 @@
     left: 0px;
     top: 0px;
 
-    background-color: #DA5C5C;
+    background-color: #0f62fe;
 }
 
+.logo-text {
+    position: absolute;
+    width: 533px;
+    height: 33px;
+    left: 104px;
+    top: 17px;
+    text-decoration: none;
+    margin-left: 15px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: -0.015em;
+
+    color: #FFFFFF;
+}
 
