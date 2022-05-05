@@ -1,6 +1,7 @@
 import './styles.css';
 import MainImage from './main.jpeg';
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 function Home() {
     return (
@@ -14,9 +15,9 @@ function Home() {
                         <h3 className='home-subtitle'>
                             IBM Brasil - Industria máquinas e serviços
                         </h3>
-                        <a href='dados' className='home-btn-order'>
+                        <Link to='/dados' className='home-btn-order'>
                             CONSULTAR DADOS
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
