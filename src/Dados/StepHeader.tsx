@@ -4,16 +4,16 @@ function StepsHeader(){
         <header className='orders-steps-container'>
             <div className='orders-steps-content'>
                 <h1 className='steps-title'>
-                    SIGA AS <br/> ETAPAS
+                    Setor Público <br/> Brasileiro
                 </h1>
                 <ul className='steps-items'>
                     <li>
-                        <span className='steps-number'>1</span>
-                        Selecione os produtos e localização
+                        <span className='steps-number'></span>
+                        Abaixo estão listadas os registros da porcentagem da dívida do setor público brasileiro
                     </li>
                     <li>
-                        <span className='steps-number'>2</span>
-                        Depois clique em <strong>ENVIAR PEDIDO</strong>
+                        <span className='steps-number'></span>
+                        Os dados consintem basicamente em: <strong>DATA</strong> e <strong>valor</strong>
                     </li>
                 </ul>
             </div>
